@@ -1,0 +1,91 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #1E1E1E;
+	color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1, h2 {
+	text-align: center;
+	color: #FFCB6B;
+}
+
+#auth-container {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 20px;
+}
+
+#sign-up-form, #sign-in-form {
+	background-color: #2C2C2C;
+	padding: 20px;
+	border-radius: 5px;
+	width: 45%;
+}
+
+input[type="text"], input[type="password"], input[type="number"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	background-color: #3C3C3C;
+	border: none;
+	color: #FFFFFF;
+}
+
+button {
+	width: 100%;
+	padding: 10px;
+	background-color: #FFCB6B;
+	color: #1E1E1E;
+	border: none;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #FFD700;
+}
+
+#user-info {
+	text-align: right;
+	margin-bottom: 20px;
+}
+
+.day {
+	margin-bottom: 20px;
+	background-color: #2C2C2C;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.day-title {
+	font-size: 24px;
+	color: #FFCB6B;
+	margin-bottom: 10px;
+}
+
+.checkbox-container {
+	display: flex;
+	align-items: center;
+	margin-bottom: 5px;
+}
+
+.checkbox-container input[type="checkbox"] {
+	margin-right: 10px;
+}
+
+.checkbox-container label {
+	flex-grow: 1;
+	cursor: pointer;
+}
+
+.bounty-input {
+	width: 50px;
+	margin-left: 10px;
+}
